@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import React from "react";
 import Header from "@/components/Header";
@@ -13,8 +14,30 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Drew.so",
-  description: "Drew Lowe - Software Architect",
+  title: "Drew Lowe",
+  description: "Drew Lowe is a technologist, software developer, and business strategist.",
+  openGraph: {
+    title: "Drew Lowe",
+    description: "Drew Lowe is a technologist, software developer, and business strategist.",
+    url: "https://drew.so",
+    siteName: "Drew Lowe",
+    images: [
+      {
+        url: "/drewbanner.jpg",
+        width: 1400,
+        height: 349,
+        alt: "Drew Lowe Site Banner",
+      },
+    ],
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@drewsowhat",
+    creator: "@drewsowhat",
+    images: ["/drewbanner.png"]
+  },
+  metadataBase: new URL("https://drew.so"),
 };
 
 export default function RootLayout({
@@ -24,10 +47,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-          className={`${inter.variable} antialiased`}
-      >
-        <ThemeProvider
+    <body
+        className={`${inter.variable} antialiased`}
+    >
+    <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
@@ -38,6 +61,7 @@ export default function RootLayout({
               <Header />
               {children}
               <Footer />
+              <Analytics />
             </div>
           </div>
         </ThemeProvider>
