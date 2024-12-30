@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import React from "react";
 import Header from "@/components/Header";
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@drewsowhat",
     creator: "@drewsowhat",
-    images: ["/drewbanner.png"]
+    images: ["/drewbanner.jpg"]
   },
   metadataBase: new URL("https://drew.so"),
 };
@@ -62,6 +63,7 @@ export default function RootLayout({
               {children}
               <Footer />
               <Analytics />
+              <SpeedInsights />
             </div>
           </div>
         </ThemeProvider>
