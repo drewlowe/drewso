@@ -1,101 +1,197 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <>
+          <img src={'/drewbanner.jpg'} alt={'Drew as a child at the computer.'} className={'rounded-sm'} />
+          <article className={'prose prose-h1:text-2xl dark:prose-invert mt-7'}>
+              <h1>About</h1>
+              <p>
+                  I’m a technologist, software developer, and business strategist. I’m originally from Florida, where I’ve
+                  built my career at the intersection of technology sales and product development.
+              </p>
+              <p>
+                  I’ve spent the past decade immersed in technology sales, JavaScript development, and design with a passion
+                  for building tools that empower individuals and businesses to scale efficiently.
+              </p>
+              <p>
+                  Early on, I recognized the potential of software to drive transformative change in traditional industries.
+                  This realization led me to blend my experience in sales with modern development frameworks, focusing on
+                  delivering impactful tools and products.
+              </p>
+              <p>
+                  I’ve built and scaled sales operations that generated millions in revenue while simultaneously
+                  experimenting with new product ideas, from sales tracking tools to customer portals and mobile-first
+                  business apps.
+              </p>
+              <p>
+                  Today, I’m focused on building platforms that redefine how we interact with sales data, customer
+                  relationships, and human connections in the digital age.
+              </p>
+              <h3>Technical & Professional Contributions</h3>
+              <ul>
+                  <li>
+                      <strong>2024-2025:</strong> Single-handedly architected, developed, and deployed a full-stack React
+                      customer portal application, empowering IT clients to track assets, orders, and shipping statuses
+                      seamlessly.
+                  </li>
+                  <li>
+                      <strong>2022-2025:</strong> Built and scaled a sales operation generating nearly $7 million in revenue
+                      over three years while driving strategic business growth.
+                  </li>
+                  <li>
+                      <strong>2022-2025:</strong> Built and deployed a marketing funnel for a US government program that
+                      generated over $5M in private-sector revenue.
+                  </li>
+                  <li>
+                      <strong>2020-2022</strong> As a video editor, helped a YouTuber reach 100K subscribers and generate
+                      over $1M in revenue.
+                  </li>
+                  <li>
+                      <strong>2014-2023:</strong> Built and deployed 50+ static sites for clients all over the world,
+                      including e-commerce platforms, marketing websites, and landing pages.
+                  </li>
+              </ul>
+              <h3 className={'text-center'}>Tech Stack</h3>
+              <div className="flex flex-wrap gap-2 items-center justify-center">
+                  <img
+                      src="https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white"
+                      alt="TypeScript"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Frontend-React-61DAFB?logo=react"
+                      alt="React"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Framework-Next.js-000000?logo=next.js"
+                      alt="Next.js"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Mobile-React%20Native-61DAFB?logo=react&logoColor=black"
+                      alt="React Native"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Mobile%20Framework-Expo-000020?logo=expo&logoColor=white"
+                      alt="Expo"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white"
+                      alt="PostgreSQL"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Database-Supabase-3ECF8E?logo=supabase"
+                      alt="Supabase"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/ORM-Prisma-2D3748?logo=prisma&logoColor=white"
+                      alt="Prisma"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js"
+                      alt="Node.js"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Backend-NestJS-E0234E?logo=nestjs&logoColor=white"
+                      alt="NestJS"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Async%20State-React%20Query-FF4154?logo=react-query&logoColor=white"
+                      alt="React Query"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/State%20Management-Zustand-FF9900?logo=zustand"
+                      alt="Zustand"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/UI-TailwindCSS-38B2AC?logo=tailwindcss"
+                      alt="TailwindCSS"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Hosting-Vercel-000000?logo=vercel&logoColor=white"
+                      alt="Vercel"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white"
+                      alt="AWS"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Container-Docker-2496ED?logo=docker&logoColor=white"
+                      alt="Docker"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Process%20Manager-PM2-2F5A78?logo=pm2&logoColor=white"
+                      alt="PM2"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Monorepo-Turborepo-000000?logo=turborepo&logoColor=white"
+                      alt="Turborepo"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/CI/CD-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white"
+                      alt="GitHub Actions"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Project%20Management-Linear-5E6AD2?logo=linear&logoColor=white"
+                      alt="Linear"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Server-Nginx-269539?logo=nginx&logoColor=white"
+                      alt="Nginx"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Linting-ESLint-4B32C3?logo=eslint&logoColor=white"
+                      alt="ESLint"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/AI-ChatGPT%20API-25A162?logo=openai&logoColor=white"
+                      alt="ChatGPT API"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/AI%20Agents-CrewAI-6E56CF?logo=ai&logoColor=white"
+                      alt="CrewAI"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/AI-Hugging%20Face-FFD34E?logo=huggingface&logoColor=black"
+                      alt="Hugging Face"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Analytics-Google%20Analytics-E37400?logo=google-analytics&logoColor=white"
+                      alt="Google Analytics"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Payments-Stripe-008CDD?logo=stripe&logoColor=white"
+                      alt="Stripe"
+                      className="h-6 m-0"
+                  />
+              </div>
+          </article>
+      </>
   );
 }
