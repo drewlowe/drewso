@@ -10,7 +10,7 @@ export default function Home() {
                   I’m a technologist, software developer, and business strategist. I’m originally from Florida, where I’ve  built my career at the intersection of technology sales and product development. Ever since I built my first online store at the age of 6, I have been obsessed with the power of technology to drive sales.
               </p>
               <p>
-                  I’ve spent the past decade immersed in technology sales, JavaScript development, and design with a passion for building tools that empower individuals and businesses to scale efficiently. I am a voracious learner and find it fun and fascinating to learn virtually any new technology.
+                  I’ve spent the past decade immersed in technology sales, JavaScript development, and design with a passion for building tools that empower individuals and businesses to scale efficiently. I am a quick learner and find it fun and fascinating to learn virtually any new technology.
               </p>
               <p>
                   Early on, I recognized the potential of software to drive transformative change in traditional industries. This realization led me to blend my experience in sales with modern development frameworks, focusing on delivering impactful tools and products.
