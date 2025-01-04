@@ -47,6 +47,21 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Language-Java-007396?logo=java&logoColor=white"
+                      alt="Java"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Language-Kotlin-0095D5?logo=kotlin&logoColor=white"
+                      alt="Kotlin"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white"
+                      alt="Python"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/Frontend-React-61DAFB?logo=react"
                       alt="React"
                       className="h-6 m-0"
@@ -64,6 +79,16 @@ export default function Home() {
                   <img
                       src="https://img.shields.io/badge/Mobile%20Framework-Expo-000020?logo=expo&logoColor=white"
                       alt="Expo"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Backend-Spring-6DB33F?logo=spring&logoColor=white"
+                      alt="Spring"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Framework-Vaadin-00B4F0?logo=vaadin&logoColor=white"
+                      alt="Vaadin"
                       className="h-6 m-0"
                   />
                   <img
