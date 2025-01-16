@@ -132,6 +132,21 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Testing-Jest-C21325?logo=jest&logoColor=white"
+                      alt="Jest"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Memoization-ReactScan-61DAFB?logo=react&logoColor=white"
+                      alt="React Scan"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Accessibility-axe--core-663399?logo=accessibility&logoColor=white"
+                      alt="axe-core"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/Hosting-Vercel-000000?logo=vercel&logoColor=white"
                       alt="Vercel"
                       className="h-6 m-0"
