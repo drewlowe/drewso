@@ -122,8 +122,18 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Async%20State-RTK%20Query-764ABC?logo=redux&logoColor=white"
+                      alt="RTK Query"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/State%20Management-Zustand-FF9900?logo=zustand"
                       alt="Zustand"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/State%20Management-Redux-764ABC?logo=redux&logoColor=white"
+                      alt="Redux"
                       className="h-6 m-0"
                   />
                   <img
@@ -137,8 +147,13 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
-                      src="https://img.shields.io/badge/Memoization-ReactScan-61DAFB?logo=react&logoColor=white"
+                      src="https://img.shields.io/badge/Memoization-react--scan-61DAFB?logo=react&logoColor=white"
                       alt="React Scan"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Testing%20Library-Testing%20Library-E33332?logo=testing-library&logoColor=white"
+                      alt="Testing Library"
                       className="h-6 m-0"
                   />
                   <img
