@@ -62,6 +62,11 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Language-Solidity-403988?logo=solidity&logoColor=white"
+                      alt="Solidity"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/Frontend-React-61DAFB?logo=react"
                       alt="React"
                       className="h-6 m-0"
@@ -148,7 +153,7 @@ export default function Home() {
                   />
                   <img
                       src="https://img.shields.io/badge/Memoization-react--scan-61DAFB?logo=react&logoColor=white"
-                      alt="React Scan"
+                      alt="react-scan"
                       className="h-6 m-0"
                   />
                   <img
@@ -158,6 +163,11 @@ export default function Home() {
                   />
                   <img
                       src="https://img.shields.io/badge/Accessibility-axe--core-663399?logo=accessibility&logoColor=white"
+                      alt="axe-core"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Web3-ethers-2535A0?logo=ethers&logoColor=white"
                       alt="axe-core"
                       className="h-6 m-0"
                   />
