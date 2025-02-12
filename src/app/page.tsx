@@ -62,6 +62,11 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Language-Solidity-403988?logo=solidity&logoColor=white"
+                      alt="Solidity"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/Frontend-React-61DAFB?logo=react"
                       alt="React"
                       className="h-6 m-0"
@@ -122,13 +127,48 @@ export default function Home() {
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/Async%20State-RTK%20Query-764ABC?logo=redux&logoColor=white"
+                      alt="RTK Query"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/State%20Management-Zustand-FF9900?logo=zustand"
                       alt="Zustand"
                       className="h-6 m-0"
                   />
                   <img
+                      src="https://img.shields.io/badge/State%20Management-Redux-764ABC?logo=redux&logoColor=white"
+                      alt="Redux"
+                      className="h-6 m-0"
+                  />
+                  <img
                       src="https://img.shields.io/badge/UI-TailwindCSS-38B2AC?logo=tailwindcss"
                       alt="TailwindCSS"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Testing-Jest-C21325?logo=jest&logoColor=white"
+                      alt="Jest"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Memoization-react--scan-61DAFB?logo=react&logoColor=white"
+                      alt="react-scan"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Testing%20Library-Testing%20Library-E33332?logo=testing-library&logoColor=white"
+                      alt="Testing Library"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Accessibility-axe--core-663399?logo=accessibility&logoColor=white"
+                      alt="axe-core"
+                      className="h-6 m-0"
+                  />
+                  <img
+                      src="https://img.shields.io/badge/Web3-ethers-2535A0?logo=ethers&logoColor=white"
+                      alt="axe-core"
                       className="h-6 m-0"
                   />
                   <img
