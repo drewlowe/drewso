@@ -1,6 +1,7 @@
 import { JetBrains_Mono } from 'next/font/google'
 import Link from 'next/link'
 import { Github, Twitter } from 'lucide-react'
+import { SiEthereum } from '@icons-pack/react-simple-icons'
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ['latin'] })
 
@@ -10,6 +11,9 @@ const Footer = () => (
             <Link href={"mailto:drew@drew.so"}>drew@drew.so</Link>
         </span>
         <div className="flex flex-row items-center gap-2">
+            <Link href={"https://app.ens.domains/drewlowe.eth"}>
+                <SiEthereum size={16} color={'hsl(var(--foreground))'}/>
+            </Link>
             <Link href={"https://github.com/drewlowe"}>
                 <Github size={16} color={'hsl(var(--foreground))'}/>
             </Link>
