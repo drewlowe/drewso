@@ -7,19 +7,16 @@ export default function Home() {
           <article className={'prose prose-h1:text-2xl dark:prose-invert mt-7'}>
               <h1>About</h1>
               <p>
-                  I’m a technologist, software developer, and business strategist. I’m originally from Florida, where I’ve  built my career at the intersection of technology sales and product development. Ever since I built my first online store at the age of 6, I have been obsessed with the power of technology to drive sales.
+                  Hi I’m Drew! I am a technologist, software engineer, and business strategist, deeply invested in the future of decentralized systems and next-generation internet applications. Originally from South Florida, I’ve built my career at the intersection of product development, blockchain, and scalable software solutions.
               </p>
               <p>
-                  I’ve spent the past decade immersed in technology sales, JavaScript development, and design with a passion for building tools that empower individuals and businesses to scale efficiently. I am a quick learner and find it fun and fascinating to learn virtually any new technology.
+                  Ever since I built my first online store at the age of six, I’ve been fascinated by the power of technology to drive innovation. Over the past decade, I’ve honed my expertise in JavaScript, Solidity, and modern development frameworks, focusing on building tools that empower individuals and businesses to scale efficiently.
               </p>
               <p>
-                  Early on, I recognized the potential of software to drive transformative change in traditional industries. This realization led me to blend my experience in sales with modern development frameworks, focusing on delivering impactful tools and products.
+                  My background in technology sales has given me a unique perspective on how software can transform traditional industries. I’ve developed and deployed sales platforms, customer portals, and mobile-first business applications that have driven millions in revenue—all while continuously exploring new frontiers in software engineering.
               </p>
               <p>
-                  I’ve built and scaled sales operations that generated millions in revenue. This was made possible by endlessly experimenting with new product ideas, from sales tracking tools to customer portals and mobile-first business apps.
-              </p>
-              <p>
-                  Today, I’m focused on building platforms that redefine how we interact with sales data, customer relationships, and human connections in the digital age.
+                  Today, I’m focused on building decentralized platforms, smart contract-based systems, and high-performance business tools. I’m particularly interested in how blockchain and distributed systems can reshape commerce, streamline operations, and create new opportunities for application design.
               </p>
               <h3>Technical & Professional Contributions</h3>
               <ul>
