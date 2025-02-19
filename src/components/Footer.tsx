@@ -1,7 +1,7 @@
 import { JetBrains_Mono } from 'next/font/google'
 import Link from 'next/link'
 import { Github, Twitter } from 'lucide-react'
-import { SiEthereum } from '@icons-pack/react-simple-icons'
+import { SiEthereum, SiSolana } from '@icons-pack/react-simple-icons'
 
 const jetBrainsMono = JetBrains_Mono({ subsets: ['latin'] })
 
@@ -13,6 +13,9 @@ const Footer = () => (
         <div className="flex flex-row items-center gap-2">
             <Link href={"https://app.ens.domains/drewlowe.eth"}>
                 <SiEthereum size={16} color={'hsl(var(--foreground))'}/>
+            </Link>
+            <Link href={"https://v2.sns.id/domain/drewlowe"}>
+                <SiSolana size={16} color={'hsl(var(--foreground))'}/>
             </Link>
             <Link href={"https://github.com/drewlowe"}>
                 <Github size={16} color={'hsl(var(--foreground))'}/>
