@@ -58,7 +58,7 @@ export default function RootLayout({
             disableTransitionOnChange
         >
           <div className="flex min-h-screen justify-center bg-[var(--background)] text-[var(--foreground)]">
-            <div className="max-w-[617px] w-full py-2 px-5 md:p-2">
+            <div className="max-w-[597px] w-full py-2 px-5 md:p-2">
               <Header/>
               <div className={'prose prose-h1:text-2xl dark:prose-invert mt-7'}>
                 {children}
