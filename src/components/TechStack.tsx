@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-
 import { Shield } from '@/components/ui/shield';
 
 export const TechStack = () => (
@@ -40,6 +38,7 @@ export const TechStack = () => (
             <Shield descriptor={'Liquidity'} technology={'Uniswap'} color={'FF007A'} logo={'uniswap'}/>
             <Shield descriptor={'Liquidity'} technology={'Balancer'} color={'3A4149'}/>
             <Shield descriptor={'Liquidity'} technology={'Aave'} color={'2EBAC6'} logo={'aave'}/>
+            <Shield descriptor={'Arbitrage'} technology={'CoW'} color={'000000'}/>
             <Shield descriptor={'Framework'} technology={'Foundry'} color={'000000'} logo={'solidity'}/>
             <Shield descriptor={'Framework'} technology={'Hardhat'} color={'F6851B'} logo={'solidity'}/>
             <Shield descriptor={'Nodes'} technology={'Infura'} color={'E4761B'} logo={'infura'}/>
