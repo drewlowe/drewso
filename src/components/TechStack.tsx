@@ -79,5 +79,26 @@ export const TechStack = () => (
             <Shield descriptor={'Buckets'} technology={'S3'} color={'569A31'} logo={'amazons3'}/>
             <Shield descriptor={'Monitoring'} technology={'Sentry'} color={'FB4226'} logo={'sentry'}/>
         </div>
+
+        <h3 className={'text-center'}>Quant Tech Stack</h3>
+        <div className="flex flex-wrap gap-2 items-center justify-center">
+            <Shield descriptor={'Language'} technology={'Python'} color={'3776AB'} logo={'python'}/>
+            <Shield descriptor={'Language'} technology={'C++'} color={'00599C'} logo={'cplusplus'}/>
+            <Shield descriptor={'Data Analysis'} technology={'Pandas'} color={'150458'} logo={'pandas'}/>
+            <Shield descriptor={'Data Analysis'} technology={'NumPy'} color={'013243'} logo={'numpy'}/>
+            <Shield descriptor={'Modeling'} technology={'SciPy'} color={'8CAAE6'} logo={'scipy'}/>
+            <Shield descriptor={'Modeling'} technology={'Statsmodels'} color={'10A37F'} logo={'python'}/>
+            <Shield descriptor={'Data Viz'} technology={'Matplotlib'} color={'11557C'} logo={'matplotlib'}/>
+            <Shield descriptor={'Data Viz'} technology={'Seaborn'} color={'4B8BBE'} logo={'seaborn'}/>
+            <Shield descriptor={'Dashboard'} technology={'Streamlit'} color={'FF4B4B'} logo={'streamlit'}/>
+            <Shield descriptor={'ML/Stats'} technology={'scikit-learn'} color={'F7931E'} logo={'scikit-learn'}/>
+            <Shield descriptor={'Time Series'} technology={'Prophet'} color={'0052CC'} logo={'meta'}/>
+            <Shield descriptor={'Backtesting'} technology={'Backtrader'} color={'00B386'}/>
+            <Shield descriptor={'Backtesting'} technology={'QuantConnect'} color={'FF5000'} logo={'quantconnect'}/>
+            <Shield descriptor={'Notebooks'} technology={'Jupyter'} color={'F37626'} logo={'jupyter'}/>
+            <Shield descriptor={'Notebooks'} technology={'Deepnote'} color={'5E5EE5'} logo={'deepnote'}/>
+            <Shield descriptor={'Notebooks'} technology={'Voila'} color={'336791'} logo={'voila'}/>
+            <Shield descriptor={'Database'} technology={'TimescaleDB'} color={'0E1E25'} logo={'timescaledb'}/>
+        </div>
     </>
 )
