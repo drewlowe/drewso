@@ -91,7 +91,8 @@ export const TechStack = () => (
             <Shield descriptor={'Data Viz'} technology={'Matplotlib'} color={'11557C'} logo={'matplotlib'}/>
             <Shield descriptor={'Data Viz'} technology={'Seaborn'} color={'4B8BBE'} logo={'seaborn'}/>
             <Shield descriptor={'Dashboard'} technology={'Streamlit'} color={'FF4B4B'} logo={'streamlit'}/>
-            <Shield descriptor={'ML/Stats'} technology={'scikit-learn'} color={'F7931E'} logo={'scikit-learn'}/>
+            <Shield descriptor={'Machine Learning'} technology={'scikitlearn'} color={'F7931E'} logo={'scikitlearn'}/>
+            <Shield descriptor={'Machine Learning'} technology={'TensorFlow'} color={'FF6F00'} logo={'tensorflow'}/>
             <Shield descriptor={'Time Series'} technology={'Prophet'} color={'0052CC'} logo={'meta'}/>
             <Shield descriptor={'Backtesting'} technology={'Backtrader'} color={'00B386'}/>
             <Shield descriptor={'Backtesting'} technology={'QuantConnect'} color={'FF5000'} logo={'quantconnect'}/>
