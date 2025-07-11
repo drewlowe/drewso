@@ -78,3 +78,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.grayscale-logo {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.grayscale-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
