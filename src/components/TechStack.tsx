@@ -26,32 +26,7 @@ export const TechStack = () => (
             <Shield descriptor={'Analytics'} technology={'Google Analytics'} color={'E37400'} logo={'google-analytics'}/>
             <Shield descriptor={'Payments'} technology={'Stripe'} color={'008CDD'} logo={'stripe'}/>
         </div>
-        <h3 className={'text-center'}>Web 3 Tech Stack</h3>
-        <div className="flex flex-wrap gap-2 items-center justify-center">
-            <Shield descriptor={'Language'} technology={'Solidity'} color={'403988'} logo={'solidity'}/>
-            <Shield descriptor={'Blockchain'} technology={'Ethereum'} color={'3C3C3D'} logo={'ethereum'}/>
-            <Shield descriptor={'L2 Scaling'} technology={'Polygon'} color={'8247E5'} logo={'polygon'}/>
-            <Shield descriptor={'L2 Scaling'} technology={'Optimism'} color={'000000'} logo={'optimism'}/>
-            <Shield descriptor={'L2 Scaling'} technology={'Arbitrum'} color={'00D395'} logo={'arbitrum'}/>
-            <Shield descriptor={'L2 Scaling'} technology={'zkSync'} color={'F2F2F2'} logo={'zksync'}/>
-            <Shield descriptor={'Oracles'} technology={'Chainlink'} color={'375BD2'} logo={'chainlink'}/>
-            <Shield descriptor={'Liquidity'} technology={'Uniswap'} color={'FF007A'} logo={'uniswap'}/>
-            <Shield descriptor={'Liquidity'} technology={'Balancer'} color={'3A4149'}/>
-            <Shield descriptor={'Liquidity'} technology={'Aave'} color={'2EBAC6'} logo={'aave'}/>
-            <Shield descriptor={'Arbitrage'} technology={'CoW'} color={'000000'}/>
-            <Shield descriptor={'Framework'} technology={'Foundry'} color={'000000'} logo={'solidity'}/>
-            <Shield descriptor={'Framework'} technology={'Hardhat'} color={'F6851B'} logo={'solidity'}/>
-            <Shield descriptor={'Nodes'} technology={'Infura'} color={'E4761B'} logo={'infura'}/>
-            <Shield descriptor={'Nodes'} technology={'Alchemy'} color={'C531FF'} logo={'alchemy'}/>
-            <Shield descriptor={'Web3'} technology={'ethers'} color={'2535A0'} logo={'ethers'}/>
-            <Shield descriptor={'Web3'} technology={'web3.js'} color={'F16822'} logo={'web3dotjs'}/>
-            <Shield descriptor={'Web3'} technology={'thirdweb'} color={'F213A4'} logo={'thirdweb'}/>
-            <Shield descriptor={'Web3'} technology={'wagmi'} color={'000000'} logo={'wagmi'}/>
-            <Shield descriptor={'Wallets'} technology={'RainbowKit'} color={'000000'}/>
-            <Shield descriptor={'Wallets'} technology={'Safe Wallet'} color={'000000'}/>
-            <Shield descriptor={'File Storage'} technology={'IPFS'} color={'65C2CB'} logo={'ipfs'}/>
-            <Shield descriptor={'File Storage'} technology={'Arweave'} color={'000000'}/>
-        </div>
+
         <h3 className={'text-center'}>DevOps Tech Stack</h3>
         <div className="flex flex-wrap gap-2 items-center justify-center">
 
@@ -78,6 +53,33 @@ export const TechStack = () => (
             <Shield descriptor={'Monorepo'} technology={'Turborepo'} color={'000000'} logo={'turborepo'}/>
             <Shield descriptor={'Buckets'} technology={'S3'} color={'569A31'} logo={'amazons3'}/>
             <Shield descriptor={'Monitoring'} technology={'Sentry'} color={'FB4226'} logo={'sentry'}/>
+        </div>
+
+        <h3 className={'text-center'}>Web 3 Tech Stack</h3>
+        <div className="flex flex-wrap gap-2 items-center justify-center">
+            <Shield descriptor={'Language'} technology={'Solidity'} color={'403988'} logo={'solidity'}/>
+            <Shield descriptor={'Blockchain'} technology={'Ethereum'} color={'3C3C3D'} logo={'ethereum'}/>
+            <Shield descriptor={'L2 Scaling'} technology={'Polygon'} color={'8247E5'} logo={'polygon'}/>
+            <Shield descriptor={'L2 Scaling'} technology={'Optimism'} color={'000000'} logo={'optimism'}/>
+            <Shield descriptor={'L2 Scaling'} technology={'Arbitrum'} color={'00D395'} logo={'arbitrum'}/>
+            <Shield descriptor={'L2 Scaling'} technology={'zkSync'} color={'F2F2F2'} logo={'zksync'}/>
+            <Shield descriptor={'Oracles'} technology={'Chainlink'} color={'375BD2'} logo={'chainlink'}/>
+            <Shield descriptor={'Liquidity'} technology={'Uniswap'} color={'FF007A'} logo={'uniswap'}/>
+            <Shield descriptor={'Liquidity'} technology={'Balancer'} color={'3A4149'}/>
+            <Shield descriptor={'Liquidity'} technology={'Aave'} color={'2EBAC6'} logo={'aave'}/>
+            <Shield descriptor={'Arbitrage'} technology={'CoW'} color={'000000'}/>
+            <Shield descriptor={'Framework'} technology={'Foundry'} color={'000000'} logo={'solidity'}/>
+            <Shield descriptor={'Framework'} technology={'Hardhat'} color={'F6851B'} logo={'solidity'}/>
+            <Shield descriptor={'Nodes'} technology={'Infura'} color={'E4761B'} logo={'infura'}/>
+            <Shield descriptor={'Nodes'} technology={'Alchemy'} color={'C531FF'} logo={'alchemy'}/>
+            <Shield descriptor={'Web3'} technology={'ethers'} color={'2535A0'} logo={'ethers'}/>
+            <Shield descriptor={'Web3'} technology={'web3.js'} color={'F16822'} logo={'web3dotjs'}/>
+            <Shield descriptor={'Web3'} technology={'thirdweb'} color={'F213A4'} logo={'thirdweb'}/>
+            <Shield descriptor={'Web3'} technology={'wagmi'} color={'000000'} logo={'wagmi'}/>
+            <Shield descriptor={'Wallets'} technology={'RainbowKit'} color={'000000'}/>
+            <Shield descriptor={'Wallets'} technology={'Safe Wallet'} color={'000000'}/>
+            <Shield descriptor={'File Storage'} technology={'IPFS'} color={'65C2CB'} logo={'ipfs'}/>
+            <Shield descriptor={'File Storage'} technology={'Arweave'} color={'000000'}/>
         </div>
 
         <h3 className={'text-center'}>Quant Tech Stack</h3>
