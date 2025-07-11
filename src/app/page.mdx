@@ -1,4 +1,6 @@
-import { Logo } from "@/components/Logo";
+import { Logo } from "../components/Logo";
+import { FullStackLogos } from "../components/tech-logo/ServiceLogoGrids";
+import { StarBullets } from "../components/star-bullets";
 
 <Logo />
 
@@ -8,35 +10,38 @@ At Drew.so, we don’t just write code—we craft tools that respect your time, 
 
 Tight business logic applications for small businesses. Vibrant energy for consumer apps.
 
-<div className="flex flex-row">
-    <div className="w-1/2">
-        - Small Business Customer Portals
-        - iOS/Android Apps
-        - B2C Productivity SaaS
-        - Social Apps
-        - Internal Tools (CRM, CMS, ERP)
-    </div>
-    <div className="w-1/2 grid grid-cols-4 gap-2">
-
-    </div>
-
+<div className="flex flex-col md:flex-row gap-8 md:gap-12 pb-8 items-center">
+  <div className="w-full md:w-1/2">
+    <StarBullets
+      bullets={[
+        "Customer Portals",
+        "iOS/Android Apps",
+        "B2C Productivity SaaS",
+        "Social Apps",
+        "Internal Tools (CRM, CMS, ERP)",
+      ]}
+    />
+  </div>
+  <FullStackLogos />
 </div>
 
 ### APIs
 
 Thoughtfully designed REST and GraphQL API servers and integrations.
 
-<div className="flex flex-row">
-    <div className="w-1/2">
-        - System Design & Architecture
-        - Data Modeling
-        - REST & GraphQL APIs
-        - Event-Driven Services
-        - OpenAPI / Swagger Docs
-    </div>
-    <div className="w-1/2 grid grid-cols-4 gap-2">
+<div className="flex flex-col md:flex-row gap-8 md:gap-12 pb-8 items-center">
+  <div className="w-full md:w-1/2">
+    <StarBullets bullets={[
+      "System Design & Architecture",
+      "Data Modeling",
+      "REST & GraphQL APIs",
+      "Event-Driven Services",
+      "OpenAPI / Swagger Docs"
+    ]} />
+  </div>
+  <div className="w-1/2 grid grid-cols-4 gap-8 md:gap-12 pb-8 items-center">
 
-    </div>
+  </div>
 
 </div>
 
@@ -44,17 +49,19 @@ Thoughtfully designed REST and GraphQL API servers and integrations.
 
 Revenue operations driven monetization with custom technology stacks.
 
-<div className="flex flex-row">
-    <div className="w-1/2">
-        - Lead Generation
-        - Subscription Platforms
-        - Custom Stripe APIs
-        - Analytics & Attribution
-        - Revenue Operations
-    </div>
-    <div className="w-1/2 grid grid-cols-4 gap-2">
+<div className="flex flex-col md:flex-row gap-8 md:gap-12 pb-8 items-center">
+  <div className="w-full md:w-1/2">
+    <StarBullets bullets={[
+      "Lead Generation",
+      "Subscription Platforms",
+      "Custom Stripe APIs",
+      "Analytics & Attribution",
+      "Revenue Operations"
+    ]} />
+  </div>
+  <div className="w-1/2 grid grid-cols-4 gap-8 items-center">
 
-    </div>
+  </div>
 
 </div>
 
@@ -62,16 +69,18 @@ Revenue operations driven monetization with custom technology stacks.
 
 Beautiful and technical implementations of multiplatform digital branding.
 
-<div className="flex flex-row">
-    <div className="w-1/2">
-        - Tailwind + Design Tokens
-        - Design System Documentation
-        - Component Libraries
-        - Framer Motion Animations
-        - Cross-Platform UI Consistency
-    </div>
-    <div className="w-1/2 grid grid-cols-4 gap-2">
+<div className="flex flex-col md:flex-row gap-8 md:gap-12 pb-8 items-center">
+  <div className="w-full md:w-1/2">
+    <StarBullets bullets={[
+      "Tailwind + Design Tokens",
+      "Design System Documentation",
+      "Component Libraries",
+      "Framer Motion Animations",
+      "Cross-Platform UI Consistency"
+    ]} />
+  </div>
+  <div className="w-1/2 grid grid-cols-4 gap-8 items-center">
 
-    </div>
+  </div>
 
 </div>

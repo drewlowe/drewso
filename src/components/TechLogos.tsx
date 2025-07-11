@@ -1,2 +1,0 @@
-// type TechLogoPath = 'react.png'
-//     |
