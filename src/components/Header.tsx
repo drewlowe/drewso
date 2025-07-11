@@ -14,6 +14,10 @@ export default function Header() {
                 <Link href="/tech-stack">Stack</Link>
                 <ThemeToggle />
             </div>
+            <div className={`flex flex-row text-sm font-light items-center gap-4 ${jetBrainsMono.className}`}>
+                <Link href="/bio">Bio</Link>
+                <ThemeToggle />
+            </div>
         </div>
     )
 }
