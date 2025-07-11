@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { ThemeProvider as NextThemesProvider } from "next-themes"
-import { useEffect, useState } from "react"
+import * as React from "react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { useEffect, useState } from "react";
 
 export function ThemeProvider({
   children,
@@ -18,5 +18,5 @@ export function ThemeProvider({
     return <>{children}</>; // Render children without ThemeProvider during SSR
   }
 
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
