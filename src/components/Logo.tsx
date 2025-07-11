@@ -6,6 +6,8 @@ import Image from "next/image";
 export const Logo = () => {
   const { theme } = useTheme();
 
+  if (!theme) return null;
+
   if (theme == "light") {
     return (
       <Image
@@ -14,7 +16,7 @@ export const Logo = () => {
         className={"w-full"}
         width={2336}
         height={1476}
-        objectFit={"contain"}
+        style={{ objectFit: "contain" }}
       />
     );
   } else if (theme == "dark") {
@@ -25,7 +27,7 @@ export const Logo = () => {
         className={"w-full"}
         width={2336}
         height={1476}
-        objectFit={"contain"}
+        style={{ objectFit: "contain" }}
       />
     );
   }
