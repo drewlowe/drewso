@@ -30,11 +30,22 @@ body {
 }
 
 .grayscale-logo-invert {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.grayscale-logo-invert:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.dark .grayscale-logo-invert {
   filter: invert(1) grayscale(100%) brightness(2);
   opacity: 0.7;
 }
 
-.grayscale-logo-invert:hover {
+.dark .grayscale-logo-invert:hover {
   filter: invert(1) grayscale(0%) brightness(2.5);
   opacity: 1;
 }
