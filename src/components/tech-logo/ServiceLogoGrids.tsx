@@ -33,3 +33,20 @@ export const APILogos = () => (
     <TechLogo path={"/firebase.png"} />
   </div>
 );
+
+export const SalesFunnelLogos = () => (
+  <div className="w-full md:w-1/2 grid grid-cols-4 gap-x-8 gap-y-8 items-center">
+    <TechLogo path={"/stripe.webp"} />
+    <TechLogo path={"/paddle.png"} />
+    <TechLogo path={"/recurly.webp"} />
+    <TechLogo path={"/chargebee.png"} />
+    <TechLogo path={"/hubspot.webp"} />
+    <TechLogo path={"/mailchimp.png"} />
+    <TechLogo path={"/salesforce.webp"} />
+    <TechLogo path={"/typeform.png"} />
+    <TechLogo path={"/google-analytics.png"} />
+    <TechLogo path={"/lighthouse.png"} />
+    <TechLogo path={"/grafana.png"} />
+    <TechLogo path={"/hotjar.png"} />
+  </div>
+);

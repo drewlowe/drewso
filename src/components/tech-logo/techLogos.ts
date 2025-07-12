@@ -125,4 +125,64 @@ export const techLogos = {
     width: 512,
     height: 512,
   },
+  "/google-analytics.png": {
+    alt: "Google Analytics",
+    width: 512,
+    height: 512,
+  },
+  "/hubspot.webp": {
+    alt: "HubSpot",
+    width: 512,
+    height: 512,
+  },
+  "/lighthouse.png": {
+    alt: "Google Lighthouse",
+    width: 512,
+    height: 512,
+  },
+  "/mailchimp.png": {
+    alt: "Mailchimp",
+    width: 476,
+    height: 499,
+  },
+  "/paddle.png": {
+    alt: "Paddle",
+    width: 1226,
+    height: 434,
+  },
+  "/stripe.webp": {
+    alt: "Stripe",
+    width: 300,
+    height: 300,
+  },
+  "/chargebee.png": {
+    alt: "Chargebee",
+    width: 741,
+    height: 833,
+  },
+  "/recurly.webp": {
+    alt: "Recurly",
+    width: 741,
+    height: 833,
+  },
+  "/grafana.png": {
+    alt: "Grafana",
+    width: 1200,
+    height: 1227,
+  },
+  "/hotjar.png": {
+    alt: "Hotjar",
+    width: 500,
+    height: 129,
+  },
+  "/typeform.png": {
+    alt: "Typeform",
+    width: 300,
+    height: 300,
+  },
+  "/salesforce.webp": {
+    alt: "Salesforce",
+    width: 2560,
+    height: 1792,
+  },
 } as const satisfies Record<string, ITechLogo>;
