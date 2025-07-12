@@ -2,10 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const CTA = () => (
-  <div className="flex flex-row items-center pb-4">
-    <div className="w-1/3">
-      <div className="flex flex-col items-center">
-        <div className="px-8">
+  <div className="flex flex-col md:flex-row items-center pb-4">
+    <div className="w-full md:w-1/3 justify-center">
+      <div className="flex flex-row md:flex-col gap-8 md:gap-0 items-center">
+        <div className="md:px-8 w-1/3 md:w-full">
           <Image
             width={500}
             height={500}
@@ -14,11 +14,13 @@ export const CTA = () => (
             className="rounded-full"
           />
         </div>
-        <span className="font-mono">(561) 332-9773</span>
-        <span className="font-mono">drew@drew.so</span>
+        <div className="flex flex-col items-center">
+          <span className="font-mono">(561) 332-9773</span>
+          <span className="font-mono">drew@drew.so</span>
+        </div>
       </div>
     </div>
-    <div className="w-2/3">
+    <div className="w-full md:w-2/3">
       <h4 className="font-mono">Ready to make it happen?</h4>
       <p className="text-sm">
         My name is Drew Lowe. I started Drew.so because I wanted to build
