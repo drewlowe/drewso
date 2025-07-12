@@ -14,21 +14,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Drew Lowe",
+  title: "Drew.so",
   description:
-    "Drew Lowe is a technologist, software developer, and business strategist.",
+    "At Drew.so, we don’t just write code—we craft tools that respect your time, attention, and purpose. Whether it’s an app, platform, or internal tool, our work is grounded in clarity, empathy, and intention.",
   openGraph: {
-    title: "Drew Lowe",
+    title: "Drew.so",
     description:
-      "Drew Lowe is a technologist, software developer, and business strategist.",
+      "At Drew.so, we don’t just write code—we craft tools that respect your time, attention, and purpose. Whether it’s an app, platform, or internal tool, our work is grounded in clarity, empathy, and intention.",
     url: "https://drew.so",
-    siteName: "Drew Lowe",
+    siteName: "Drew.so",
     images: [
       {
         url: "/drewbanner.jpg",
         width: 1400,
         height: 349,
-        alt: "Drew Lowe Site Banner",
+        alt: "Drew.so Site Banner",
       },
     ],
     type: "website",
