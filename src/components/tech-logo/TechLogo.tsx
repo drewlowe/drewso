@@ -3,7 +3,13 @@ import { techLogos } from "@/components/tech-logo/techLogos";
 
 export type TechLogoPath = keyof typeof techLogos;
 
-export const TechLogo = ({ path }: { path: TechLogoPath }) => {
+export const TechLogo = ({
+  path,
+  invert = false,
+}: {
+  path: TechLogoPath;
+  invert?: boolean;
+}) => {
   const logo = techLogos[path];
 
   if (!logo) return null;
@@ -15,7 +21,7 @@ export const TechLogo = ({ path }: { path: TechLogoPath }) => {
         alt={logo.alt}
         width={logo.width}
         height={logo.height}
-        className="grayscale-logo max-h-8 w-auto"
+        className={`${invert ? "grayscale-logo-invert" : "grayscale-logo"} max-h-8 w-auto`}
       />
     </div>
   );
