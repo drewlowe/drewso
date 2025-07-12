@@ -14,7 +14,7 @@ export const StarBullets = ({ bullets }: { bullets: string[] }) => {
               className="w-4 h-4"
             />
           </div>
-          <span className="text-sm font-semibold">{bullet}</span>
+          <span className="text-sm font-mono">{bullet}</span>
         </div>
       ))}
     </div>
