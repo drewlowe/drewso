@@ -185,4 +185,64 @@ export const techLogos = {
     width: 2560,
     height: 1792,
   },
+  "/figma.webp": {
+    alt: "Figma",
+    width: 512,
+    height: 512,
+  },
+  "/framer-motion.png": {
+    alt: "Framer Motion",
+    width: 320,
+    height: 320,
+  },
+  "/storybook.png": {
+    alt: "Storybook",
+    width: 320,
+    height: 320,
+  },
+  "/tailwind.png": {
+    alt: "Tailwind",
+    width: 320,
+    height: 320,
+  },
+  "/gsap.webp": {
+    alt: "GSAP",
+    width: 310,
+    height: 110,
+  },
+  "/lottie.png": {
+    alt: "Lottie",
+    width: 512,
+    height: 512,
+  },
+  "/material.png": {
+    alt: "Material",
+    width: 512,
+    height: 512,
+  },
+  "/sass.png": {
+    alt: "Sass",
+    width: 512,
+    height: 400,
+  },
+  "/swiftui.png": {
+    alt: "Swift UI",
+    width: 512,
+    height: 512,
+  },
+  "/adobe.png": {
+    alt: "Adobe",
+    width: 253,
+    height: 253,
+  },
+  "/zeroheight.png": {
+    alt: "Zeroheight",
+    width: 320,
+    height: 320,
+  },
+  "/tokens-studio.webp": {
+    alt: "Tokens Studio",
+    width: 400,
+    height: 400,
+  },
 } as const satisfies Record<string, ITechLogo>;

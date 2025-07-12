@@ -50,3 +50,20 @@ export const SalesFunnelLogos = () => (
     <TechLogo path={"/hotjar.png"} />
   </div>
 );
+
+export const DesignKitLogos = () => (
+  <div className="w-full md:w-1/2 grid grid-cols-4 gap-x-8 gap-y-8 items-center">
+    <TechLogo path={"/adobe.png"} />
+    <TechLogo path={"/figma.webp"} />
+    <TechLogo path={"/storybook.png"} />
+    <TechLogo path={"/tokens-studio.webp"} />
+    <TechLogo path={"/tailwind.png"} />
+    <TechLogo path={"/sass.png"} />
+    <TechLogo path={"/framer-motion.png"} />
+    <TechLogo path={"/zeroheight.png"} />
+    <TechLogo path={"/gsap.webp"} />
+    <TechLogo path={"/lottie.png"} />
+    <TechLogo path={"/material.png"} />
+    <TechLogo path={"/swiftui.png"} />
+  </div>
+);
