@@ -56,7 +56,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen justify-center bg-[var(--background)] text-[var(--foreground)]">
+          <div className="flex min-h-screen justify-center bg-bg text-fg">
             <div className="max-w-[700px] w-full py-2 px-5 md:p-2">
               <Header />
               <div
