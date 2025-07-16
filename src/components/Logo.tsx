@@ -22,7 +22,7 @@ export const Logo = () => {
   } else if (theme == "dark") {
     return (
       <Image
-        src={"/icon.png"}
+        src={"/logo-dark.png"}
         alt={"Drew.so Human Software Agency"}
         className={"w-full"}
         width={2336}
